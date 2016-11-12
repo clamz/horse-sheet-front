@@ -1985,6 +1985,12 @@ flatten@^1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/flatten/-/flatten-1.0.2.tgz#dae46a9d78fbe25292258cc1e780a41d95c03782"
 
+focus-trap@^2.1.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/focus-trap/-/focus-trap-2.1.0.tgz#00e20dea96be9346897208860bd19136da87516a"
+  dependencies:
+    tabbable "^1.0.3"
+
 for-in@^0.1.5:
   version "0.1.6"
   resolved "https://registry.yarnpkg.com/for-in/-/for-in-0.1.6.tgz#c9f96e89bfad18a545af5ec3ed352a1d9e5b4dc8"
@@ -2840,6 +2846,10 @@ macaddress@^0.2.8:
 map-obj@^1.0.0, map-obj@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/map-obj/-/map-obj-1.0.1.tgz#d933ceb9205d82bdcf4886f6742bdc2b4dea146d"
+
+material-design-lite:
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/material-design-lite/-/material-design-lite-1.2.1.tgz#09e5caab2575af8ee21b2630bff175c5a822c662"
 
 math-expression-evaluator@^1.2.14:
   version "1.2.14"
@@ -4202,6 +4212,10 @@ supports-color@^3.1.0, supports-color@^3.1.2:
   dependencies:
     has-flag "^1.0.0"
 
+susy:
+  version "2.2.12"
+  resolved "https://registry.yarnpkg.com/susy/-/susy-2.2.12.tgz#644c2441ed00d293287e8d49a016dbf919215953"
+
 svgo@^0.7.0:
   version "0.7.1"
   resolved "https://registry.yarnpkg.com/svgo/-/svgo-0.7.1.tgz#287320fed972cb097e72c2bb1685f96fe08f8034"
@@ -4220,6 +4234,10 @@ swap-case@^1.1.0:
   dependencies:
     lower-case "^1.1.1"
     upper-case "^1.1.1"
+
+tabbable@^1.0.3:
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/tabbable/-/tabbable-1.0.4.tgz#70b07e052a05584fb17aa9f1808f51af3ae8d63d"
 
 table@^3.7.8:
   version "3.8.3"
@@ -4466,6 +4484,12 @@ vue-loader@^9.3.2:
     vue-style-loader "^1.0.0"
     vue-template-compiler "^2.0.4"
     vue-template-es2015-compiler "^1.0.0"
+
+vue-mdl@v1.0.0-alpha.2:
+  version "1.0.0-alpha.2"
+  resolved "https://registry.yarnpkg.com/vue-mdl/-/vue-mdl-1.0.0-alpha.2.tgz#57a986109db98e54b2764247b6ec2b44cb2dcf35"
+  dependencies:
+    focus-trap "^2.1.0"
 
 vue-router@^2.0.0:
   version "2.0.1"

@@ -1,13 +1,22 @@
 <template>
   <div id="app">
-    <router-view></router-view>
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+      <header-view></header-view>
+      <main class="mdl-layout__content">
+        <div class="page-content">
+          <router-view></router-view>
+        </div>
+      </main>
+    </div>
   </div>
 </template>
 
 <script>
 
+import HeaderView from './header/HeaderView.vue'
 export default {
   components: {
+    HeaderView
   }
 }
 </script>

@@ -1,0 +1,10 @@
+@import "material-design-lite/src/color-definitions";
+
+
+// colors
+$color-primary: $palette-teal-500;
+$color-primary-dark: $palette-teal-700;
+$color-accent: $palette-lime-500;
+
+$text-color-primary: unquote("rgb(#{$palette-teal-900})");
+$text-link-color: unquote("rgb(#{$color-accent})");

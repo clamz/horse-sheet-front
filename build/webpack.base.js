@@ -18,7 +18,8 @@ module.exports = {
     extensions: ['', '.js', '.vue', '.css', '.json'],
     alias: {
       root: path.join(__dirname, '../client'),
-      components: path.join(__dirname, '../client/components')
+      components: path.join(__dirname, '../client/components'),
+      shared: path.join(__dirname, '../client/shared')
     }
   },
   module: {
@@ -48,6 +49,10 @@ module.exports = {
         }
       }
     ]
+  },
+
+  sassLoader: {
+    includePaths: [path.resolve(__dirname, "../node_modules")]
   },
   babel: config.babel,
   postcss: config.postcss,
